@@ -43,6 +43,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="11dp"
         android:layout_toStartOf="@+id/choose"
-        android:text="reset" />
+        android:text="reset"
+        android:layout_toLeftOf="@+id/choose"
+        tools:ignore="RtlCompat" />
 
 </RelativeLayout>
